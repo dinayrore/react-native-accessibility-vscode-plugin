@@ -1,0 +1,109 @@
+{
+  "React Native Accessible View": {
+    "prefix": "rnview",
+    "body": [
+      "<View",
+      "  accessible",
+      "  accessibilityLabel={'VoiceOver label'}",
+      "  accessibilityHint={'describe the elements action'}>",
+      "  accessibilityRole={'see accessibilityRole list: https://reactnative.dev/docs/accessibility#accessibilityrole'}>",
+      "  accessibilityState={'describe the elements action'}>",
+      "  accessibilityValue={'describe the elements value'}>",
+      "  onAccessibilityTap={() => {}}",
+      "  style={styles.container}",
+      ">",
+      "// input additional components here",
+      "</View>"
+    ],
+    "description": "Creates a React Native View Component with Accessibility Props"
+  },
+  "React Native Accessible Text": {
+    "prefix": "rntext",
+    "body": [
+      "<Text",
+      "  accessible",
+      "  accessibilityLabel={'VoiceOver label'}",
+      "  accessibilityHint={'describe the elements action'}>",
+      "  accessibilityRole={'see accessibilityRole list: https://reactnative.dev/docs/accessibility#accessibilityrole'}>",
+      "  accessibilityValue={'describe the elements value'}>",
+      "  onAccessibilityTap={() => {}}",
+      "  style={styles.text}",
+      ">",
+      "{input text here}",
+      "</Text>"
+    ],
+    "description": "Creates a React Native Text Component with Accessibility Props"
+  },
+  "React Native Accessible Image": {
+    "prefix": "rnimage",
+    "body": [
+      "<Image",
+      "  accessible",
+      "  accessibilityLabel={'VoiceOver label'}",
+      "  accessibilityHint={'describe the elements action'}>",
+      "  accessibilityRole={'see accessibilityRole list: https://reactnative.dev/docs/accessibility#accessibilityrole'}>",
+      "  onAccessibilityTap={() => {}}",
+      "  source={require('path/to/image')}",
+      "  style={styles.image}",
+      "/>"
+    ],
+    "description": "Creates a React Native Image Component with Accessibility Props"
+  },
+  "React Native Accessible TextInput": {
+    "prefix": "rntextinput",
+    "body": [
+      "<TextInput",
+      "  accessible",
+      "  accessibilityLabel={'VoiceOver label'}",
+      "  accessibilityHint={'describe the elements action'}>",
+      "  accessibilityRole={'see accessibilityRole list: https://reactnative.dev/docs/accessibility#accessibilityrole'}>",
+      "  accessibilityValue={'describe the elements value'}>",
+      "  onAccessibilityTap={() => {}}",
+      "  style={styles.input}",
+      "  onChangeText={text => onChangeText(text)}",
+      "  value={text}",
+      "  placeholder={'placeholder text'}",
+      "/>"
+    ],
+    "description": "Creates a React Native TextInput Component with Accessibility Props"
+  },
+  "React Native Accessible Button": {
+    "prefix": "rnbutton",
+    "body": [
+      "<Button",
+      "  accessible",
+      "  accessibilityLabel={'VoiceOver label'}",
+      "  accessibilityHint={'describe the elements action'}>",
+      "  accessibilityRole={'button'}>",
+      "  accessibilityState={'describe the elements action'}>",
+      "  accessibilityValue={'describe the elements value'}>",
+      "  onAccessibilityTap={() => {}}",
+      "  style={styles.button}",
+      "  title={'Button Title'}",
+      "  onPress={() => {}}",
+      "/>"
+    ],
+    "description": "Creates a React Native Button Component with Accessibility Props"
+  },
+  "React Native Accessible Switch": {
+    "prefix": "rnswitch",
+    "body": [
+      "<Switch",
+      "  accessible",
+      "  accessibilityLabel={'VoiceOver label'}",
+      "  accessibilityHint={'describe the elements action'}>",
+      "  accessibilityRole={'button'}>",
+      "  accessibilityState={'describe the elements action'}>",
+      "  accessibilityValue={'describe the elements value'}>",
+      "  onAccessibilityTap={() => {}}",
+      "  aria-selected={isEnabled}",
+      "  style={styles.button}",
+      "  trackColor={{false: '', true: ''}}",
+      "  thumbColor={isEnabled ? '' : ''}",
+      "  onValueChange={toggleSwitch}",
+      "  value={isEnabled}",
+      "/>"
+    ],
+    "description": "Creates a React Native Switch Component with Accessibility Props"
+  }
+}

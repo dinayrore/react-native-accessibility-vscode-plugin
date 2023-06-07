@@ -1,8 +1,18 @@
-# reactnativeaccessibilityproperties README
+# React Native Accessibility Properties Plugin
 
-This is the README for your extension "reactnativeaccessibilityproperties". After writing up a brief description, we recommend including the following sections.
+A React Native extension that provides autocomplete accessibility properties.
 
 ## Features
+
+This plugin uses AST Parsers (with Babel) to understand the context of the code and provide autocomplete suggestions for accessibility properties. 
+
+There are also React Native Accessibility Snippets provided for common accessibility properties per core React Native components. 
+
+A snippet is a template that can be inserted into a document. It is inserted via a command or through some trigger text. The prefix property defines the trigger phrase for the snippet. 
+
+I would like to utilize these snippets if possible to better support variation of accessibility properties per React Native components.
+
+The remainder of this README is left to boilerplate for now as I continue to develop this plugin.
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
 
